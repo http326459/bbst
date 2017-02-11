@@ -1,0 +1,55 @@
+/*ss重置样式  */
+body,div,i,a,p,span,b,input,h1,h2,h3,h4,h5,h6,ul,ol,dl,li,dd,dt,textarea,img{margin:0;padding:0;}
+body{font-family: microsoft yahei;color:#333;}
+i,b{font-style: normal;}
+a{text-decoration:none;}
+img{vertical-align:top;width: 100%;}
+input,textarea,select,textarea,img,a,button{resize: none;outline: none;border: none;}
+li{list-style: none}
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+.clearfix:after{content: '';display: block;height:0;clear: both;font-size:0;*zoom:1}
+
+input[placeholder], [placeholder], *[placeholder] { 
+color:#fa9fb0 !important; 
+} 
+::-webkit-input-placeholder { /* WebKit browsers */ 
+color: #fa9fb0; 
+} 
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ 
+color: #fa9fb0; 
+} 
+::-moz-placeholder { /* Mozilla Firefox 19+ */ 
+color: #fa9fb0; 
+} 
+:-ms-input-placeholder { /* Internet Explorer 10+ */ 
+color: #fa9fb0; 
+} 
+
+
+
+
+.modal{background:rgba(6,3,6,0.8);position:fixed;top:0;left:0;z-index:10;width:100%;height:100%;}	
+.bouncedone{position:fixed;left:50%;top:50%;margin-top:-50%;z-index:99;margin-left:-40%;width:80%;}
+.bouncedone .inco{position: relative;}
+.bouncedone .inco .shut{position: absolute;right:3%;top:3%;;}
+.bouncedone .inco .shut a{display: block;width:30px;height: 30px}
+.bouncedone .inco .know{display: block;position:absolute;left: 50%;bottom: 3%;width: 96px;height: 36px;margin-left: -48px;}
+
+.modal{background:rgba(6,3,6,0.8);position:fixed;top:0;left:0;z-index:10;width:100%;height:100%;}	
+.bouncedtwo{position:fixed;left:50%;top:50%;margin-top:-50%;z-index:99;margin-left:-40%;width:80%;}
+.bouncedtwo .intwo a{display: block;position:absolute;left: 50%;top: 56%;width: 35%;height: 16%;margin-left: -15%;}
+
+
+#reules .herder{position:relative;}
+#reules .herder a{position:absolute;right:5%;top:15%;width:28%;height:65%;display:block;}
+#reules .main{position:relative;}
+#reules .main .main_wen{position:absolute;top:0;left:0;width:100%;height:100%;}
+#reules .main .main_wen input{background:transparent;width:61%;margin-left:26%;height:9%;font-size:14px;}
+#reules .main .main_wen input:nth-of-type(2){margin-top:7.5%;}
+#reules .main .main_wen textarea{width:68%;height:31%;background:transparent;margin-left:16%;margin-top:9%;font-size:14px;}
+#reules .main .main_wen p{margin:8% 0 0 14%;line-height:20px;font-size:14px;color:#ff3768;}
+#reules .main .main_wen p span{width:20px;height:20px;margin-left:10px;overflow:hidden;}
+#reules .main .main_wen p span input{float:left;margin-top:-20px;}
+#reules .main .main_wen p span img{width:20px;height:20px;}
+#reules .main .main_wen button{background:transparent;display:block;width:35%;height:9%;margin:3% 0 0 33%;}
+

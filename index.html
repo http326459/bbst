@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+	    <meta charset="utf-8">
+	    <meta http-equiv="Cache-Control" content="no-cache"/>
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0;" />
+	    <title>情人节专题1</title>
+	    <link rel="stylesheet" href="css/style.css" />
+	    <script src="js/jquery-3.1.0.min.js"></script>
+	    <script type="text/javascript" src="js/Phpop.js" ></script>
+	    <script>
+	    	$(function(){
+	    		var xuan = false;
+	    		$("span").click(function(){
+	    			if(!xuan){
+	    				$("span img").attr("src","images/gouxuan.png");
+	    				xuan = true;
+	    			}else{
+	    				$("span img").attr("src","images/wgouxuan.png");
+	    				xuan = false;
+	    			}
+	    		});
+	    		
+	    		
+   			$("#sub").click(function(){
+   				bouncedbb();
+   			});
+	    		
+	    		
+	    	});
+	    </script>
+	</head>
+	<body>
+		<div id="reules">
+			<div class="herder">
+				<img src="images/21_01.jpg">
+				<a href="rule.html"  id="sub"></a>
+			</div>
+			<div class="main">
+				<img src="images/21_02.jpg" />
+				<form class="main_wen">
+					<input type="text" class="name" placeholder="请输入你的名字"/>
+					<input type="text" class="photo" placeholder="请输入TA的中国移动的电话"/>
+					<textarea placeholder="请输入你想对TA说的话或告诉 我们你们的故事。"></textarea>
+					<p><font style="position:relative;top:3px;">*</font>使用匿名表达爱意<span><input type="checkbox"><img src="images/wgouxuan.png"></span></p>
+					<button type="button"></button>
+				</form>
+			</div>
+		</div>
+	</body>
+	<script>
+		var _hmt = _hmt || [];
+		(function() {
+		  var hm = document.createElement("script");
+		  hm.src = "https://hm.baidu.com/hm.js?6abc7ab10be05032e3df073ab756a078";
+		  var s = document.getElementsByTagName("script")[0]; 
+		  s.parentNode.insertBefore(hm, s);
+		})();
+	</script>
+</html>
